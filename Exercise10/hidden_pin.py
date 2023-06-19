@@ -1,3 +1,5 @@
+from getpass import getpass
+
 print('')
 print("Welcome to Scotland's bank of Mark")
 print('')
@@ -6,7 +8,7 @@ max_attempts = 3
 attempts = 0
 attempts_left = 3
 while attempts < max_attempts:
-    supplied_pin = input('Please input your four digit pin code: ')
+    supplied_pin = getpass(prompt='Please input your four digit pin code: ')
     print('')
     if supplied_pin == correct_pin:
         print('pin correct')
@@ -24,3 +26,4 @@ while attempts < max_attempts:
         print('')
 if attempts == max_attempts:
     print("Max attempts reached: Were sorry but you cannot access your account")
+
