@@ -11,28 +11,28 @@ pattern = os.path.join(hdir, '*')
 
 # TODO: Use the glob.glob() function to obtain the list of filenames
 
-file_directory = glob.glob(pattern)  # This
+file_directory = glob.glob(pattern)              # This searches the files that match the specific pattern/name (pattern)
 
 # TODO: use os.path.getsize to find each file's size
-for i in file_directory:
-    if os.path.getsize(i) >= 0:
-        print(i, os.path.getsize(i))
+for files in file_directory:                     # this check's the returned list against file directory
+    if os.path.getsize(files) >= 0:              # check's if the files are above or equal to size over zero length
+        print(files, os.path.getsize(files))     # prints the return of the size and lists the files and their corresponding size
 
-print('')
-print('')
+print('')                                        # This prints a blank line in run file to create a space so text is readable
+print('')                                        # again creates a blank line
 # TODO: Add a test to only display files that are not zero length
 
-for i in file_directory:
-    if os.path.getsize(i) > 0:
-        print(i, os.path.getsize(i))
+for files in file_directory:                     # this check's the returned list against file directory
+    if os.path.getsize(files) > 0:               # check's if the files are greater than zero length
+        print(files, os.path.getsize(files))     # prints the return of the size and lists the files and their corresponding size
 
 
-print('')
-print('')
+print('')                                        # again creates a blank line
+print('')                                        # again creates a blank line
 
 # TODO: Remove the leading directory name(s) from each filename before you print it - 
 # using os.path.basename()
 
-for i in file_directory:
-    if os.path.getsize(i) > 0:
-        print(os.path.basename(i), os.path.getsize(i))
+for files in file_directory:                     # this check's the returned list against file directory
+    if os.path.getsize(files) > 0:               # check's if the files are greater than zero length
+        print(os.path.basename(files), os.path.getsize(files))  # prints the return of the size and lists the files and their corresponding size but removes both leading directory's
