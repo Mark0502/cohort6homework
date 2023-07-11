@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f28d78f1-c414-4a05-9e5a-87ddcc5f5d53" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Exercise10/ex10_starter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise10/ex10_starter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise10/hidden_pin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise10/hidden_pin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise10/pin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise10/pin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_12/lotto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_13/read_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_13/write_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_14/Exercise_14.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise_14/play_again.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/Exercise_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_12/exercise_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_11/ex11_starter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_11/ex11_starter_mm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,12 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Repo/cohort6homework"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Repo/cohort6homework&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repo\cohort6homework\Exercise_13" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

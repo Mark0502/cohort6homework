@@ -20,11 +20,37 @@ print(" ")
 
 # Question 1 section 3b
 replace = belgium.replace(',', ':')     # This changes the comma with colons
-#print(belgium)                          # This is the original
+
 print(replace)                          # This is the changed return
 #three_b_test =  # attempting formatted string long code
 #three_b_answer = f'{hyphens} [{replace}]' # attempting formatted string
 #print(three_b_answer)
 
+print(" ")
+print(" ")
+
 # Question 1 section 3c
-# Math addition with 2 and 4 from belgium
+# Math addition with 1 and 3 from belgium
+
+belgium_list = belgium.split(",")
+print(belgium_list)
+
+print(" ")
+print(" ")
+
+#total_population = f'{int(belgium_list[1])} + {int(belgium_list[3])}' # attempting formatted string
+
+belgium_population = int(belgium_list[1])
+print(belgium_list[1])
+
+print(" ")
+print(" ")
+
+capital_population = int(belgium_list[3])
+print(belgium_list[3])
+
+print(" ")
+print(" ")
+
+total_population = belgium_population + capital_population
+print(total_population)
